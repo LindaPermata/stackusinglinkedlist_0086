@@ -96,7 +96,14 @@ int main() {
 
                 }
                 break;
+            case 4:
+                cout << "Exiting program." << endl;
+                break;
+            default:
+                cout << "Invalud choice. Try again." << endl;
+                break;
         }
+        cout << endl;
         
 
 
